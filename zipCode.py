@@ -13,3 +13,4 @@ else:
     print(zipCode)
     print("The Zip Code is:", zipCode)
     print("zip code: %s" %(zipCode))
+    print(f"The zip code is {zipCode}")

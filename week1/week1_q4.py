@@ -13,7 +13,7 @@ print("\nReverse the list:")
 my_list.reverse()
 print(my_list)
 print("\nreplace i with z:")
-my_list[0]="z"
+my_list[1]="z"
 print(my_list)
 print("\nSorted List:")
 my_list.sort()

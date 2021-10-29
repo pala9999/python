@@ -1,9 +1,10 @@
 ## Q1. Create a function named custom_function .
 def custom_function(n):
     for i in range(1,11):
-        print(n,"*",i,"=",n*i)
-  
-custom_function(5)
+         #print(n,"*",i,"=",n*i)
+         return n , i, n*i
+
+x,y,z = custom_function(5)
 ################################################################################
 # Q2. Write the function call with 2 arguments fname, lname 
 # that returns fname+lname, print returned value.
@@ -16,7 +17,7 @@ print(f_name("Prasanth","Ala"))
 def q3(*args):
     a1=args[0]
     a2=args[1]
-    return  a1+a2
+    return  a1+" "+a2
 arg1=input("Q3a Enter fname value:\n")
 arg2=input("Q3a Entwe lname value:\n")
 print(q3(arg1,arg2))
@@ -25,7 +26,7 @@ print(q3(arg1,arg2))
 def q3(**args):
     a1=args["fname"]
     a2=args["lname"]
-    return a1+a2
+    return a1+" "+a2
 
 arg1=input("Q3b Enter fname value:\n")
 arg2=input("Q3b Enter lname value:\n")
